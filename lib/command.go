@@ -88,7 +88,7 @@ func (bitcoin *Bitcoin) handleTxCommand(args []string) {
 			return
 		}
 
-		fmt.Println("utxo storage: ", bitcoin.storage.utxoIndex)
+		// fmt.Println("utxo storage: ", bitcoin.storage.utxoIndex)
 
 		if utxos, ok := bitcoin.storage.utxoIndex[args[1]]; ok {
 			total := uint64(0)
