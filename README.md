@@ -48,7 +48,7 @@ Bitcoin 的 blockchain，transaction 功能
 实现`blockchain`功能，但解耦了`transaction`功能
 
 ```
-- Block 序列化协议数据结构
+- Block 序列化协议数据结构
 - Blockchain 链式结构
 - Merkle Root
 - Pow
@@ -65,7 +65,7 @@ Bitcoin 的 blockchain，transaction 功能
 - Coinbase
 - 序列化成协议数据结构
 - P2PHK
-- Script (not complete)
+- Script (not complete)
 ```
 
 ### TODO
